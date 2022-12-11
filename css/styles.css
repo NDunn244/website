@@ -1,0 +1,141 @@
+/**********TAG SELECTORS********/
+
+body {
+margin: 0;
+text-align: center;
+font-family:'Source Serif Pro', serif;
+color: #40514E;
+}
+
+h1 {
+    font-size: 3.125rem; /*50px/16 = 3.125em/rem*/
+    margin: 300px auto 0 auto;
+    font-family: 'Press Start 2P', Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.5rem; /*40px/16 = 2.5em/rem*/
+    color: #50577A;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-family: 'VT323', sans-serif;
+    font-size: 1.875rem; /*30px/16 = 1.875em/rem*/
+    color: #50577A;
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+    border: dashed #D8D9CF 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+/**********CLASS SELECTORS********/
+
+.top-container {
+    position: relative;
+    padding-top: 100px;
+    background-image: url(https://media.tenor.com/tpN3Us4jT8YAAAAC/pokemon-emerald.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 610px;
+}
+
+.middle-container {
+margin: 100px 0;
+}
+
+.bottom-container {
+    background-color: #50577A;
+    padding: 20px 0;
+}
+
+.web {
+    text-decoration: underline;
+    color: #50577A;
+}
+
+.bio {
+    width: 30%;
+    margin: auto;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.html-png {
+width: 25%;
+float: left;
+margin-right: 30px;
+}
+
+
+.css-png {
+width: 25%;
+float: right;
+margin-left: 30px;
+}
+
+.contact-me {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.copyright {
+    color: white;
+}
+
+.fa-linkedin {
+    color: #0e76a8;
+}
+
+.btn {
+    background: #404258;
+    background-image: -webkit-linear-gradient(top, #404258, #6B728E);
+    background-image: -moz-linear-gradient(top, #404258, #6B728E);
+    background-image: -ms-linear-gradient(top, #404258, #6B728E);
+    background-image: -o-linear-gradient(top, #404258, #6B728E);
+    background-image: linear-gradient(to bottom, #404258, #6B728E);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Orbitron', sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    line-height: 2;
+  }
+  
+  .btn:hover {
+    background: #474E68;
+    background-image: -webkit-linear-gradient(top, #474E68, #7d839e);
+    background-image: -moz-linear-gradient(top, #474E68, #7d839e);
+    background-image: -ms-linear-gradient(top, #474E68, #7d839e);
+    background-image: -o-linear-gradient(top, #474E68, #7d839e);
+    background-image: linear-gradient(to bottom, #474E68, #7d839e);
+    text-decoration: none;
+  }
+
+  .selfie {
+    height: 15%;
+    width: 15%;
+  }
+
+  .p2 {
+    margin-bottom: 40px;
+  }
